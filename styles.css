@@ -1,19 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    color:red;
+    color: red;
 }
+
 .center {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: top !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
-.custom-font{
+
+.center img {
+    width: 100px;
+    height: 100px;
+}
+
+.github-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.container-upper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #cce5ff;
+    border: 4px solid rgb(38, 0, 255);
+    text-align: center;
+}
+
+.container-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 4px solid red;
+    background-color: #fff;
+}
+
+.container-right {
+    width: 200px;
+    padding: 10px;
+    background-color: #d4f8e8;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.custom-font {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    line-height: 20px;
-    margin-bottom: 0px;
-    display: inline;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 .button_1 {
@@ -21,22 +71,13 @@ h1 {
     width: 100px;
     height: 40px;
     color: rgb(255, 18, 18);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
+    font-size: 16px;
     border-radius: 20px;
-    background: transparent;
-    line-height: 10px;
-    display: inline;
-}
-.butt_1 {
     background: blue;
-    margin: 0
+    border: none;
 }
+
 .button_1:hover {
     color: rgb(111, 35, 35);
-    background: rgb(22, 22, 117)
-}
-img {
-    width: 200px;
-    height: 200px;
+    background: rgb(22, 22, 117);
 }
