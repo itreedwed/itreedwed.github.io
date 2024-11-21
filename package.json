@@ -7,6 +7,7 @@
         "autoprefixer": "^10.4.2",
         "browser-sync": "^2.27.7",
         "del": "^6.0.0",
+        "gulp":"^5.0.0",
         "gulp-csso": "^4.0.1",
         "gulp-file-include": "^2.3.0",
         "gulp-format-html": "^1.2.5",
@@ -28,8 +29,5 @@
         "build": "gulp build",
         "serve": "gulp serve",
         "start": "gulp start"
-    },
-    "dependencies": {
-        "gulp": "^4.0.2"
     }
 }
