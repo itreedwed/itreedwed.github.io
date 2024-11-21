@@ -13,6 +13,6 @@
 
 ***
 
-* Актуальная онлайн-версия сайта *(временно неисправна автопубликация проекта в github-pages)* : [itreedwed.github.io][def]
+* Актуальная онлайн-версия сайта: [itreedwed.github.io][def]
 
 [def]: itreedwed.github.io "Перейти"
