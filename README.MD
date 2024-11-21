@@ -15,4 +15,4 @@
 
 * Актуальная онлайн-версия сайта: [itreedwed.github.io][def]
 
-[def]: itreedwed.github.io "Перейти"
+[def]: https://itreedwed.github.io "Перейти"
