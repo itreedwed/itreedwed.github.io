@@ -1,8 +1,8 @@
 {
-    "name": "itreedwed.github.io",
+    "name": "course_front",
     "version": "1.0.0",
-    "description": "student course of frontend-developer",
-    "author": "itreedwed@gmail.com",
+    "description": "course junior frontend-developer",
+    "author": "si@tagree.ru",
     "devDependencies": {
         "autoprefixer": "^10.4.2",
         "browser-sync": "^2.27.7",
@@ -29,11 +29,5 @@
         "build": "gulp build",
         "serve": "gulp serve",
         "start": "gulp start"
-    },
-    "dependencies": {
-        "@googlemaps/js-api-loader": "^1.16.3",
-        "air-datepicker": "^3.4.0",
-        "jquery": "^3.7.1",
-        "jquery-validation": "^1.20.0"
     }
 }
