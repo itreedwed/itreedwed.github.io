@@ -158,6 +158,7 @@ function serve() {
   gulp.watch(resources.svgSprite, gulp.series(svgSprite, reloadServer));
 }
 const start = gulp.series(build, serve);
+export default start; // Экспортируем задачу по умолчанию
 export {
   clean,
   copy,
