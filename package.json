@@ -1,7 +1,7 @@
 {
-    "name": "course_front",
+    "name": "itreedwed.github.io",
     "version": "1.0.0",
-    "description": "course junior frontend-developer",
+    "description": "student course of frontend-developer",
     "author": "si@tagree.ru",
     "devDependencies": {
         "autoprefixer": "^10.4.2",
