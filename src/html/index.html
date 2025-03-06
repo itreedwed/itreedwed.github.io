@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <include src="blocks/head.html"></include>
+    @@include('blocks/head.html')
     <body class="body">
-        <include src="blocks/page-header.html"></include>
+        @@include('blocks/page-header.html')
         <main class="main">
-            <include src="blocks/main-page/main-header.html"></include>
-            <include src="blocks/offers.html"></include>
-            <include src="blocks/main-page/about.html"></include>
-            <include src="blocks/main-page/upcoming.html"></include>
-            <include src="blocks/main-page/blog.html"></include>
-            <include src="blocks/main-page/contacts.html"></include>
-            <include src="blocks/main-page/text-bg.html"></include>
+            @@include('blocks/main-page/main-header.html')
+            @@include('blocks/offers.html')
+            @@include('blocks/main-page/about.html')
+            @@include('blocks/main-page/upcoming.html')
+            @@include('blocks/main-page/blog.html')
+            @@include('blocks/main-page/contacts.html')
+            @@include('blocks/main-page/text-bg.html')
         </main>
-        <include src="blocks/page-footer.html"></include>
-        <include src="blocks/event-pp.html"></include>
+        @@include('blocks/page-footer.html')
+        @@include('blocks/event-pp.html')
 
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="scripts/jquery.selectric.min.js"></script>
