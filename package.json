@@ -2,7 +2,7 @@
     "name": "course_front",
     "version": "1.0.0",
     "description": "course junior frontend-developer",
-    "author": "sosindi@yandex.ru",
+    "author": "si@tagree.ru",
     "devDependencies": {
         "autoprefixer": "^10.4.2",
         "browser-sync": "^2.27.7",

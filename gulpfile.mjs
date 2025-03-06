@@ -111,7 +111,7 @@ function images() {
         imagemin_optipng({ optimizationLevel: 3 })
       ])
     )
-  .pipe(gulp.dest("dist/assets/images"));
+    .pipe(gulp.dest("dist/assets/images"));
 }
 function svgSprite() {
   return gulp
