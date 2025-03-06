@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-  @@include('blocks/head.html')
+  @@include('/blocks/head.html')
   <body class="body">
-    @@include('blocks/page-header.html')
+    @@include('/blocks/page-header.html')
     <main class="main">
       <article class="article">
         <div class="article__container">
@@ -31,13 +31,13 @@
               Здесь содержится цитата
             </blockquote>
             <pictire>
-              <img src="assets/images/image.jpg" alt="Подпись картинки">
+              <img src="./assets/images/image.jpg" alt="Подпись картинки">
             </pictire>
           </div>
         </div>
       </article>
     </main>
     @@include('blocks/page-footer.html')
-    <script src="scripts/main.min.js"></script>
+    <script src="./scripts/main.min.js"></script>
   </body>
 </html>
